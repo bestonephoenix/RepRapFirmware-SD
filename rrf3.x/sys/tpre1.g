@@ -11,7 +11,7 @@ G1 X79.5 Y200 F50000
 G1 X79.5 Y230 F50000
 
 ;Collect
-G1 X79.5 Y242 F2500
+G1 X79.5 Y242.5 F2500
 
 ;Close Coupler
 M98 P"/macros/Coupler - Lock"
@@ -19,7 +19,7 @@ M98 P"/macros/Coupler - Lock"
 ;WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING!
 ;if you are using non-standard length hotends ensure the bed is lowered enough BEFORE undocking the tool!
 G91
-G1 Z10 F1000
+G1 Z20 F1000
 G90
 
 ;Move Out
