@@ -1,0 +1,3 @@
+; Move to Center of platform for Homing
+
+G1 X150 Y100 F50000
